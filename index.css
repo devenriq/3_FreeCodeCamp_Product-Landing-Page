@@ -5,11 +5,11 @@
   --primary-text: "#120C38";
   --shadow: "#FDFDFE";
   --primary-background: "#FFFFFF";
-  --secondary-background: "#172176"; 
+  --secondary-background: "#172176";
 
   --h1-font-size: 60px;
   --h2-font-size: 30px;
-  --h3-font-size: 18px; 
+  --h3-font-size: 18px;
   --nav-options-font: 14px;
   --subtitle-font-size: 20px;
   --body-font-size: 15px;
@@ -21,7 +21,7 @@
 
   --h1-font-weight: 800;
   --h2-font-weight: 700;
-  --h3-font-weight: 700; 
+  --h3-font-weight: 700;
   --subtitle-font-weight: 400;
   --body-regular-font-weight: 400;
   --body-bold-font-weight: 700;
@@ -31,7 +31,7 @@
   --links-font-weight: 700;
 
   --h1-color: rgba(30, 30, 30, 0.9);
-  --h2-color: rgba(10, 10, 100, 0.7); 
+  --h2-color: rgba(10, 10, 100, 0.7);
   --h3-color: rgba(10, 10, 100, 0.7);
   --buttom-color: white;
 }
@@ -74,7 +74,7 @@ header {
 #btn-menu {
   display: none;
 }
-  
+
 header label {
   display: none;
 }
@@ -160,7 +160,7 @@ header label {
   padding: 50px;
 }
 
-#photo-diana {
+#photo {
   width: 300px;
   margin: auto;
   border-radius: 50%;
@@ -303,15 +303,22 @@ header label {
   }
 
   /* informacion personal */
+  #video{
+    display: none;
+  }
+
   .personal-information {
     width: 400px;
     margin: 0 20px;
     margin: auto;
-    
+
   }
 
   /* servicios */
   .container-servicios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100%;
     flex-direction: column;
